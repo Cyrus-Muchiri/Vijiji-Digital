@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Vijiji Digital</title>
+	
+    <link rel="icon" href="images/vdLogo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/select2.css">
+    
+
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+  
+
+    <nav class="navbar navbar-expand-lg navbar-dark probootstrap_navbar" id="probootstrap-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/vdLogo.png" width="60px" height="60px">Vijiji Digital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-menu" aria-controls="probootstrap-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="probootstrap-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#section-home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-landlord">LandLords</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-tenant">Tenants</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+    
+
+    <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5"  id="section-home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md">
+            <h2 class="heading mb-2 display-4 font-light probootstrap-animate">Strangers made family
+          </h2>
+            <p class="lead mb-5 probootstrap-animate">Live with your landlords as if they were family
+          </p>
+            <p class="probootstrap-animate">
+              <a href="#section-landlord" role="button" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3">Landlords</a>
+              <a href="#section-tenant" role="button" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3">Tenants</a> 
+            </p>
+          </div> 
+          
+        </div>
+      </div>
+    
+    </section>
+    <!-- END section -->
+    
+    
+
+    <!--Section Landlord-->
+    <section class="probootstrap-cover overflow-hidden relative" id="section-landlord" style="background-image: url('images/bg_1.jpg');" >
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="heading mb-2 display-4 font-light probootstrap-animate">Landlords
+        </h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+              <p class="lead mb-5 probootstrap-animate">Create new account?</p>
+              <!--Landlord Registration-->
+              <form action="register.php" method="POST">
+                <label for="landlordName">Name(to be used as username)</label>
+                <input type="text" name="landlordName" class="form-control"> <br>
+                <label for="apartmentName">Apartment Name</label>
+                <input type="text" name="apartmentName" class="form-control"> <br>
+                <label for="landlordEmail">Email address</label>
+                <input type="email" name="landlordEmail" class="form-control"> <br>
+                <label for="landlordMobile">Mobile Number</label>
+                <input type="number" name="landlordMobile" class="form-control"> <br>
+                <label for="landlordPassword">Password</label>
+                <input type="password" name="landlordPassword" class="form-control"><br>
+                <label for="landlordConfirmPassword">Confirm Password</label>
+                <input type="password" name="landlordConfirmPassword" class="form-control"><br>
+                <input type="submit" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3" role="button" value=" Sign UP">
+              </form>
+          </div> 
+          <div class="col-md-2 probootstrap-animate"></div>
+          <div class="col-md-3 probootstrap-animate">
+           
+            <p class="lead mb-5 probootstrap-animate">Already have an account?</p>
+            <!--Landlord Login-->
+            <form action="landlordlogin.php" method="POST">
+              <label  for="">Apartment name</label>
+              <input type="text" name="apartmentName" class="form-control"> <br>
+              <label for="landlordUserName">Username</label>
+              <input type="text" name="userName" class="form-control"> <br>
+              <label for="landlordPassword">Password</label>
+              <input type="password" name="landlordPassword" class="form-control"> <br>
+              <input type="submit" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3" role="button" value=" Login">
+            </form>
+            
+          </div>
+        </div>
+        
+       
+  
+      </div>
+    </section>
+    <!--End Section-->
+
+    <!-- tenant section -->
+  <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5"  id="section-tenant">
+    <div class="overlay"></div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-10"><h2 class="heading mb-2 display-4 font-light probootstrap-animate">Tenants</h2></div>
+    </div>
+    
+    <div class="row align-items-center">
+      
+      <div class="col-md-1"></div>
+      
+      <div class="col-md-6">
+          
+          <p class="lead mb-5 probootstrap-animate">Instructions</p>
+          <ul style="list-style-type:square">
+              <li>To log in, make sure you get apartment name, username and a password from your landlord</li>
+              <li>User the details given to log in</li>
+              <li>After logging in, take time to change your log in details</li>
+              <li>Update your profile also after log in</li>
+              
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <!--tenant login-->
+        <p class="lead mb-5 probootstrap-animate">login?</p>
+        <form action="tenantLogin.php"method="POST" >
+            <label for="">Apartment Name</label>
+            <input type="text" name="apartmentName" class="form-control"> <br>
+            <label for="tenantUserName">Username</label>
+            <input type="text" name="tenantUserName" class="form-control"> <br>
+            <label for="tenantPassword">Password</label>
+            <input type="password" name="tenantPassword" class="form-control"> <br>
+            <input type="submit" class="btn btn-primary p-3 mr-3 pl-5 pr-5 text-uppercase d-lg-inline d-md-inline d-sm-block d-block mb-3" value=" Login">
+          
+        </form>
+      </div> 
+      <div class="col-md-3"></div>
+    </div>
+    </div>
+  
+  </section>
+     
+    
+    
+
+   <script src="js/jquery.min.js"></script>
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <script src="js/select2.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
